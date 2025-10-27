@@ -1,0 +1,36 @@
+@CountriesAPI_HostAddress = https://localhost:7085
+
+
+GET {{CountriesAPI_HostAddress}}/test/countries
+
+###
+
+
+GET {{CountriesAPI_HostAddress}}/test/rates
+
+###
+
+GET {{CountriesAPI_HostAddress}}/countries/summary-image
+
+###
+
+GET {{CountriesAPI_HostAddress}}/countries
+
+###
+
+POST {{CountriesAPI_HostAddress}}/countries/refresh
+
+###
+
+@name=string
+DELETE {{CountriesAPI_HostAddress}}/countries/{{name}}
+
+###
+
+GET {{CountriesAPI_HostAddress}}/countries/{{name}}
+
+###
+
+GET {{CountriesAPI_HostAddress}}/status
+
+###
