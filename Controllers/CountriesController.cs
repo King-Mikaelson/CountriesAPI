@@ -177,6 +177,7 @@ public class CountriesController : ControllerBase
     }
 
 
+
 [HttpGet("image")]
     public IActionResult GetSummaryImage()
     {
